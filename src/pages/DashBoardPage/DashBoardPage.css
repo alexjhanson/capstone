@@ -1,0 +1,39 @@
+.dashboard_content_container {
+    width: 1390px;
+    margin: auto;
+}
+
+.dashboard_container header {
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 30px;
+    background-color:rgb(53,82,121);
+}
+
+.dashboard_header-btn {
+    position: absolute;
+    top: 35%;
+    left: 80%;
+    border-radius: 6px;
+    border:none;
+    box-shadow: 5px 10px 5px black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: rgb(38,225,175);
+    color: white;
+    cursor: pointer;
+    text-decoration:  none;
+}
+
+.dashboard_header-btn:active {
+    box-shadow: none;
+}
+
+.dashboard_header-title {
+    letter-spacing: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}

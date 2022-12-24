@@ -1,0 +1,93 @@
+.form_container {
+    height: 675px;
+    width: 650px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 5px 10px 5px #888888;
+}
+
+.form_container h1 {
+    text-align: center;
+    padding: 40px 0;
+    background-color:rgb(53,82,121);
+    color: white;
+    margin: 0;
+    margin-bottom: 75px;
+    border-radius: 10px 10px 0 0;
+    letter-spacing: 3px;
+}
+
+.form_field_container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.form_container label {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+      
+.form_container label span {
+color: #737495;
+width: 4.5rem;
+}
+      
+.form_container input,
+.form_container select {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1rem;
+font-weight: bold;
+padding: 0.4rem;
+color: rgb(229, 115, 16);
+border: 2px solid #737495;
+border-radius: 0;
+outline: none;
+background-color: whitesmoke;
+}
+  
+.form_container input {
+    width: 350px;
+}
+
+input[type='date'] {
+    width: 150px;
+}
+
+.form_container select {
+    width: 75px;
+}
+
+.form_btn, .cancel_btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px black;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+.cancel_btn {
+    position: absolute;
+    top: 30px;
+    left: 85%;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #f17d80;
+}
+
+.form_btn {
+    display: block;
+    margin: 100px 0 0 auto ;
+    background-color: rgb(38,225,175);
+}
+
+.form_btn:active, .cancel_btn:active {
+    box-shadow: none;
+}
