@@ -1,9 +1,10 @@
+
 import json
-from utils.data_utils import get_data
+from utils import data_utils
 
 output = {}
 
-data = get_data()
+data = data_utils.get_data()
 canceled = data[data['is_canceled'] == 1]
 
 output['total_reservations'] = len(data)
